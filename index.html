@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>GSK Construction</title>
+</head>
+
+<body>
+
+    <!--------- Header Section (Company Name, NavBar, Image ) ------->
+
+    <section class="company-titile">
+        <h2 class="company-name">YOURCOMPANYNAME</h2>
+    </section>
+
+    <section class="header">
+        <nav>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a class="active" href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">TESTIMONIALS</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACTS</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-box">
+            <p class="welcome-text">WELCOME TO</p>
+            <p class="com-name-text">YOURCOMPANYNAME</p>
+        </div>
+    </section>
+
+    <!--------- Body Section (Team Leaders Information) ------->
+
+    <section class="team-leaders">
+
+        <h1 class="team-leader-title">OUR TEAM LEADERS</h1>
+        <p class="team-leaders-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas vitae
+            provident perferendis sunt et tempora
+            quis id similique, impedit nemo repudiandae rerum explicabo. Ipsam eos assumenda magnam incidunt nemo Lorem
+            ipsum dolor sit amet consectetur, adipisicing elit. Quas vitae provident perferendis sunt et tempora
+            quis id similique, impedit nemo repudiandae rerum explicabo. Ipsam eos assumenda magnam incidunt nemo
+            laboriosam?</p>
+
+        <div class="row">
+            <div class="leader-col">
+                <div class="">
+                    <img src="./img/leader.jpg" alt="" class="image-container">
+                </div>
+                <div>
+                    <h3 class="leader-name">Carol Leveski</h3>
+                    <p class="leader-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem doloremque, odio eius
+                        voluptas ratione.</p>
+                </div>
+            </div>
+            <div class="leader-col">
+                <div class="">
+                    <img src="./img/leader.jpg" alt="" class="image-container">
+                </div>
+                <div>
+                    <h3 class="leader-name">Carol Leveski</h3>
+                    <p class="leader-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem doloremque, odio eius
+                        voluptas ratione.</p>
+                </div>
+            </div>
+            <div class="leader-col">
+                <div class="">
+                    <img src=" ./img/leader.jpg" alt="" class="image-container">
+                </div>
+                <div>
+                    <h3 class="leader-name">Carol Leveski</h3>
+                    <p class="leader-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem doloremque, odio eius
+                        voluptas ratione.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--------- Body Section (Company Information) ------->
+
+<section class="company-info">
+<div class="info-container">
+    <div class="info-details-row">
+        <div class="info-col">
+            <div>
+                <h3 class="info-count">2500</h3>
+                <p class="info-name">HAPPY CLIENTS</p>
+            </div>
+        </div>
+        <div class="info-col">
+            <div>
+                <h3 class="info-count">300</h3>
+                <p class="info-name">FULL NOTEBOOKS</p>
+            </div>
+        </div>
+        <div class="info-col">
+            <div>
+                <h3 class="info-count">120</h3>
+                <p class="info-name">TEAMMATES</p>
+            </div>
+        </div>
+        <div class="info-col">
+            <div>
+                <h3 class="info-count">30</h3>
+                <p class="info-name">STORES</p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+    <!---------- Menu Toggle Button  ------->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.left = "0";
+        }
+        function hideMenu() {
+            navLinks.style.left = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
